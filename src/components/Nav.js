@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Nav = () => {
+const Nav = (props) => {
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-dark">
@@ -11,16 +11,31 @@ const Nav = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
-              <a className="nav-link" href="#about">About Me <span className="sr-only">(current)</span></a>
+              <a className="nav-link" href="#about" onClick={() => props.handlePageChange('About')}
+                className={
+                  props.currentPage === 'About' ? 'nav-link active' : 'nav-link'
+                }>About Me <span className="sr-only">(current)</span></a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Portfolio</a>
+              <a className="nav-link" href="#portfolio" onClick={() => props.handlePageChange('Project')}
+                className={
+                  props.currentPage === 'Project' ? 'nav-link active' : 'nav-link'
+                }>Portfolio</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Contact</a>
+              <a className="nav-link" href="#contact"
+                // Whenever a tab is clicked on,
+                // the current page is set through the handlePageChange props.
+                onClick={() => props.handlePageChange('Contact')}
+                className={
+                  props.currentPage === 'Contact' ? 'nav-link active' : 'nav-link'
+                }>Contact</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Resume</a>
+              <a className="nav-link" href="#resume" onClick={() => props.handlePageChange('Resume')}
+                className={
+                  props.currentPage === 'Resume' ? 'nav-link active' : 'nav-link'
+                }>Resume</a>
             </li>
           </ul>
         </div>

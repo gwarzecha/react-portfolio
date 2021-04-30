@@ -4,7 +4,7 @@ import headshot from '../assets/images/updatedHeadshot.png'
 const About = () => {
   return (
     <section>
-      <h1 id='about'>A little about me...</h1>
+      <h1 id='about'>A bit about me...</h1>
       <img src={headshot} alt='headshot'></img>
       <div>
         <p>
