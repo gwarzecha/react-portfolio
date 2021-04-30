@@ -1,1 +1,10 @@
 
+
+/* Navbar*/
+a.navbar-brand {
+  font-size: 2.625rem;
+}
+
+a.nav-link {
+  font-size: 1.75rem;
+}
