@@ -13,7 +13,7 @@ const Footer = () => {
           ><Linkedin color="white" size={32} /></a>
           {/* GitHub */}
           <a className="btn btn-outline-light btn-floating m-1" href="https://github.com/gwarzecha" target="_blank" role="button"
-          ><github /><GitHub color="white" size={32} /></a>
+          ><GitHub color="white" size={32} /></a>
         </section>
       </div>
     </footer>

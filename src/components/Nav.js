@@ -17,9 +17,9 @@ const Nav = (props) => {
                 }>About Me <span className="sr-only">(current)</span></a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#" onClick={() => props.handlePageChange('Project')}
+              <a className="nav-link" href="#" onClick={() => props.handlePageChange('Portfolio')}
                 className={
-                  props.currentPage === 'Project' ? 'nav-link active' : 'nav-link'
+                  props.currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'
                 }>Portfolio</a>
             </li>
             <li className="nav-item">

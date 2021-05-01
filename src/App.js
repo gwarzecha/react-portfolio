@@ -3,7 +3,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Nav from './components/Nav'
 import About from './components/About';
-import Project from './components/Project';
+import Portfolio from './components/Portfolio';
 import ContactForm from './components/Contact';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
@@ -17,8 +17,8 @@ function App() {
   // The renderPage method uses a switch statement to render the appropriate current page
   const renderPage = () => {
     switch (currentPage) {
-      case 'Project':
-        return <Project />;
+      case 'Portfolio':
+        return <Portfolio />;
       case 'Contact':
         return <ContactForm />;
       case 'Resume':
