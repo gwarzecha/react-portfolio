@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Coding Bootcamp Survival Guide",
+    "image": "cbsg.png",
+    "github":"https://github.com/Coding-Bootcamp-Survival-Guide/Coding-Bootcamp-Survival-Guide.git",
+    "deployedApp": "//coding-bootcamp-survival-guide.herokuapp.com/"
+  }
+  {
+    "id": 2,
+    "name": "The Quick Bite",
+    "image": "qb.png",
+    "github": "https://github.com/gwarzecha/restaurant-search.git",
+    "deployedApp": "https://gwarzecha.github.io/restaurant-search/"
+  },
+  {
+    "id": 3,
+    "name": "Budget Tracker",
+    "image": "bt.png",
+    "github": "https://github.com/gwarzecha/budget-tracker-PWA.git",
+    "deployedApp": "https://stormy-lowlands-93797.herokuapp.com/"
+  },
+  {
+    "id": 4,
+    "name": "Weather Dashboard",
+    "image": "wt.png",
+    "github": "https://github.com/gwarzecha/weather-dashboard.git",
+    "deployedApp": "https://gwarzecha.github.io/weather-dashboard/"
+  },
+  {
+    "id": 5,
+    "name": "The Nerd Nest",
+    "image": "nn.png",
+    "github": "https://github.com/gwarzecha/the-tech-place.git",
+    "deployedApp": "https://safe-plateau-80676.herokuapp.com/"
+  },
+  {
+    "id": 6,
+    "name": "Jot It Down",
+    "image": "jit.png",
+    "github": "https://github.com/gwarzecha/jot-it-down.git",
+    "deployedApp": "https://fierce-tundra-39107.herokuapp.com/"
+  }
+]
