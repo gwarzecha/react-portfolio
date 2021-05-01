@@ -5,7 +5,9 @@ import Nav from './components/Nav'
 import About from './components/About';
 import Project from './components/Project';
 import ContactForm from './components/Contact';
-import Header from './components/Header'
+import Resume from './components/Resume';
+import Footer from './components/Footer';
+
 
 function App() {
 
@@ -18,8 +20,8 @@ function App() {
         return <Project />;
       case 'Contact':
         return <ContactForm />;
-      // case 'Resume':
-      //   return <Resume />;
+      case 'Resume':
+        return <Resume />;
       default:
         return <About />;
     }
@@ -27,16 +29,13 @@ function App() {
 
   return (
     <div className="App">
-      <Header>
-
-      </Header>
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
-
       <main>
         <div>
           {renderPage(currentPage)}
         </div>
       </main>
+      <Footer />
     </div>
   );
 }

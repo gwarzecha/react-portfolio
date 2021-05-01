@@ -11,19 +11,19 @@ const Nav = (props) => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
-              <a className="nav-link" href="#about" onClick={() => props.handlePageChange('About')}
+              <a className="nav-link" href="#" onClick={() => props.handlePageChange('About')}
                 className={
                   props.currentPage === 'About' ? 'nav-link active' : 'nav-link'
                 }>About Me <span className="sr-only">(current)</span></a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#portfolio" onClick={() => props.handlePageChange('Project')}
+              <a className="nav-link" href="#" onClick={() => props.handlePageChange('Project')}
                 className={
                   props.currentPage === 'Project' ? 'nav-link active' : 'nav-link'
                 }>Portfolio</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#contact"
+              <a className="nav-link" href="#c"
                 // Whenever a tab is clicked on,
                 // the current page is set through the handlePageChange props.
                 onClick={() => props.handlePageChange('Contact')}
@@ -32,7 +32,7 @@ const Nav = (props) => {
                 }>Contact</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#resume" onClick={() => props.handlePageChange('Resume')}
+              <a className="nav-link" href="#" onClick={() => props.handlePageChange('Resume')}
                 className={
                   props.currentPage === 'Resume' ? 'nav-link active' : 'nav-link'
                 }>Resume</a>
