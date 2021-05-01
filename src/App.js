@@ -7,6 +7,7 @@ import Project from './components/Project';
 import ContactForm from './components/Contact';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
+import Header from './components/Header';
 
 
 function App() {
@@ -29,9 +30,12 @@ function App() {
 
   return (
     <div className="App">
-      <main>
+      <Header>
         <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
-        <div>
+      </Header>
+      <main>
+
+        <div className='content'>
           {renderPage(currentPage)}
         </div>
       </main>

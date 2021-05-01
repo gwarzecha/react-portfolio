@@ -3,7 +3,7 @@ import { Mail, Linkedin, GitHub } from 'react-feather';
 
 const Footer = () => {
   return (
-    <footer id="footer" className="bg-dark text-center text-white position-sticky">
+    <footer id="footer" className="bg-dark text-center text-white">
       <div className="container p-2 pb-0">
         <section className="mb-2">
           <a className="btn btn-outline-light btn-floating m-1" href="mailto: gmwarzecha@gmail.com" target="_blank" role="button"
