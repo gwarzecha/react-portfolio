@@ -7,11 +7,14 @@ const Portfolio = (project) => {
   const [projects] = useState(projectJSON);
 
   return (
-    <section>
-      {projects.map((project) => (
-        < Project project={project} />
-      ))}
-    </section>
+    <div className='container'>
+      <div className='row'>
+        {projects.map((project) => (
+          < Project project={project} />
+        ))}
+      </div>
+
+    </div>
   )
 }
 
