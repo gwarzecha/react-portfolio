@@ -2,8 +2,30 @@ import React from 'react'
 
 const Nav = (props) => {
   return (
+
     <div>
-      <nav className="navbar navbar-expand-lg navbar-light bg-dark">
+      <div className="jumbotron jumbotron-fluid">
+        <div className="container">
+          <div className='row'>
+            <div className='col-md-8'>
+              <h1 className="display-4">Fluid jumbotron</h1>
+              <p className="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            </div>
+            <div className="col-md-4 btn-col d-flex justify-content-center">
+              <div className="btn-group-vertical ">
+                <div>
+                </div>
+                <a href="#" onClick={() => props.handlePageChange('About')}><button type="button" className="btn btn-sm shadow props.currentPage === 'About' ? 'nav-link active' : 'nav-link'">About</button></a>
+                <a href="#" onClick={() => props.handlePageChange('Portfolio')}><button type="button" className="btn btn-sm shadow props.currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'">Projects</button></a>
+                <a href="#" onClick={() => props.handlePageChange('Contact')}><button type="button" className="btn btn-sm shadow props.currentPage === 'Contact' ? 'nav-link active' : 'nav-link'">Contact</button></a>
+                <a href="#" onClick={() => props.handlePageChange('Resume')}><button type="button" className="btn btn-sm shadow props.currentPage === 'Resume' ? 'nav-link active' : 'nav-link'">Resume</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/*       <nav className="navbar navbar-expand-lg navbar-light bg-dark">
         <a className="navbar-brand" href="#">Garrett Warzecha</a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
@@ -39,7 +61,8 @@ const Nav = (props) => {
             </li>
           </ul>
         </div>
-      </nav>
+      </nav>*/}
+
     </div>
   )
 }

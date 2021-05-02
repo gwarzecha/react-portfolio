@@ -29,18 +29,21 @@ function App() {
   };
 
   return (
-    <div className="App">
-      <Header>
-        <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
-      </Header>
-      <main>
 
-        <div className='content'>
+    <div className="App">
+      <body>
+        <Header>
+          <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+        </Header>
+        <main>
           {renderPage(currentPage)}
-        </div>
-      </main>
+        </main>
+      </body>
+
       <Footer />
     </div>
+
+
   );
 }
 

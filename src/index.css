@@ -13,7 +13,29 @@ Colors {
   box-sizing: border-box;
 }
 
+html, body {
+  margin: 0;
+  height: 100%;
+  background: linear-gradient(to bottom left, #034078ff, #fefcfbff, #001f54ff)
+}
+
 /* Navbar Styling*/
+.jumbotron {
+  padding: 32px !important;
+
+}
+
+.btn {
+  width: 80px;
+  margin: .75rem
+
+}
+
+/*
+nav {
+  width: 100%;
+}
+
 a.navbar-brand {
   font-size: 2.625rem;
 }
@@ -21,11 +43,8 @@ a.navbar-brand {
 a.nav-link {
   font-size: 1.75rem;
 }
+*/
 
-
-.content {
-  padding-bottom: 100px;
-}
 
 /* Portfolio Page */
 .img-container {
@@ -36,24 +55,40 @@ a.nav-link {
 .img-container .overlay {
   position:absolute;
   height: 100%;
-  width: 70%;  
+  width: 73%;  
   opacity:0;
   transition:opacity 500ms ease-in-out;
 }
 
+/*
 .img-container:hover {
   opacity: 0.33;
 }
+*/
 
 .overlay:hover {
   position:absolute;
-  opacity:1;
+  background:  #fefcfbff;
+  opacity: 0.95;
 
 }
+
+a.appLink:hover {
+  transition:font-size 500ms ease-in-out;
+  font-size: 1.25rem;
+}
+
 
 .appLink {
   color: black;
   text-decoration: none !important;
+}
+
+.appLink:hover {
+  color: #001f54ff; 
+ 
+  text-decoration:none; 
+  cursor:pointer;  
 }
 
 /* Footer Styling */
