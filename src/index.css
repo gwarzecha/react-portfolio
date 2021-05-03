@@ -36,6 +36,7 @@ main {
 /* Navbar Styling*/
 
 .jumbotron {
+  background-color: #5e7790 !important;
   width: 100%;
   padding: 32px !important;
   

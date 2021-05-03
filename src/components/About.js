@@ -8,7 +8,7 @@ const About = () => {
         <div className='col-md-12 col-sm-12 col-lg-4 d-flex justify-content-center'>
           <img src={headshot} className='headshot' alt='headshot'></img>
         </div>
-        <div className='p-2 col-md-12 col-sm-12 col-lg-8 d-flex'>
+        <div className='col-md-12 col-sm-12 col-lg-8 d-flex p-2 mt-4'>
           <p className= 'd-flex align-self-center'>
             I am a full-stack web developer specializing in the MERN stack, combining my passion for 
             creativity with practical problem solving abilities. Initially finding myself in the 
