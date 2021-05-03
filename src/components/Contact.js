@@ -43,13 +43,14 @@ function ContactForm() {
   }
 
   return (
-    <section className="container d-flex contactCont" >
+    <section className="container d-flex contactCont justify-content-center" >
       <div className='row'>
-        <div className='col-12 justify-content-center'>
-          <h1>Contact me</h1>
+        <div className='col-12 p-4'>
+          <h1 className='d-flex justify-content-center'>Get in Touch!</h1>
+          <h3 className='d-flex justify-content-center'>480.321.7571</h3>
         </div>
 
-        <form id="contact-form" className='col-12 justify-content-center' onSubmit={handleSubmit}>
+        <form className='col-12 justify-content-center' onSubmit={handleSubmit}>
           <div className='container'>
             <div>
               <label htmlFor="name" className='col-12'>Name:</label>
@@ -75,7 +76,10 @@ function ContactForm() {
               <p className="error-text">{errorMessage}</p>
             </div>
           )}
-          <button type="submit">Submit</button>
+          <div className='container'>
+            <button id='contactBtn' className='glow-on-hover m-2' type="submit">Submit</button>
+          </div>
+
         </form>
       </div>
 
