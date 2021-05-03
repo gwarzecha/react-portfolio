@@ -9,16 +9,17 @@ const Nav = (props) => {
           <div className='row'>
             <div className='col-md-8'>
               <h1 className="display-4">Hey There,</h1>
-              <p className="lead">My name is Garrett Warzecha</p>
+              <p className="lead">My name is Garrett Warzecha. Please feel free to learn a little
+              about me and the Web Development work I've done. </p>
             </div>
             <div className="col-md-4 btn-col d-flex justify-content-center">
               <div className="btn-group-vertical ">
                 <div>
                 </div>
-                <a href="#" onClick={() => props.handlePageChange('About')}><button type="button" className="btn btn-sm shadow props.currentPage === 'About' ? 'nav-link active' : 'nav-link'">About</button></a>
-                <a href="#" onClick={() => props.handlePageChange('Portfolio')}><button type="button" className="btn btn-sm shadow props.currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'">Projects</button></a>
-                <a href="#" onClick={() => props.handlePageChange('Contact')}><button type="button" className="btn btn-sm shadow props.currentPage === 'Contact' ? 'nav-link active' : 'nav-link'">Contact</button></a>
-                <a href="#" onClick={() => props.handlePageChange('Resume')}><button type="button" className="btn btn-sm shadow props.currentPage === 'Resume' ? 'nav-link active' : 'nav-link'">Resume</button></a>
+                <a href="#" onClick={() => props.handlePageChange('About')}><button type="button" className="glow-on-hover btn btn-sm  props.currentPage === 'About' ? 'nav-link active' : 'nav-link'">About</button></a>
+                <a href="#" onClick={() => props.handlePageChange('Portfolio')}><button type="button" className="glow-on-hover btn btn-sm  props.currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'">Projects</button></a>
+                <a href="#" onClick={() => props.handlePageChange('Contact')}><button type="button" className="glow-on-hover btn btn-sm  props.currentPage === 'Contact' ? 'nav-link active' : 'nav-link'">Contact</button></a>
+                <a href="#" onClick={() => props.handlePageChange('Resume')}><button type="button" className="glow-on-hover btn btn-sm  props.currentPage === 'Resume' ? 'nav-link active' : 'nav-link'">Resume</button></a>
               </div>
             </div>
           </div>
