@@ -49,7 +49,6 @@ function ContactForm() {
           <h1 className='d-flex justify-content-center mainFont'>Get in Touch!</h1>
           <h3 className='d-flex justify-content-center secondaryFont'>480.321.7571</h3>
         </div>
-
         <form className='col-12 justify-content-center' onSubmit={handleSubmit}>
           <div className='container'>
             <div>
@@ -62,27 +61,23 @@ function ContactForm() {
               <label htmlFor="email" className='col-12 secondaryFont'>Email address:</label>
               <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
             </div>
-
           </div>
           <div className='container'>
             <div>
               <label htmlFor="message" className='col-12 secondaryFont'>Message:</label>
               <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
             </div>
-
           </div>
           {errorMessage && (
-            <div>
+            <div className='container'>
               <p className="error-text">{errorMessage}</p>
             </div>
           )}
           <div className='container'>
             <button id='contactBtn' className='glow-on-hover m-2' type="submit">Submit</button>
           </div>
-
         </form>
       </div>
-
     </section>
   );
 

@@ -13,7 +13,6 @@ const Portfolio = (project) => {
           < Project project={project} />
         ))}
       </div>
-
     </div>
   )
 }

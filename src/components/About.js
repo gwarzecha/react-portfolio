@@ -18,13 +18,10 @@ const About = () => {
             <br></br>
             <br></br>
             In my freetime I enjoy collecting vinyl, reading, drawing, and hanging out with my wife 
-            and two cats.
-            
-            
+            and two cats.  
           </p>
         </div>
       </div>
-
     </section>
   )
 }

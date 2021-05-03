@@ -5,14 +5,12 @@ const Resume = () => {
     <section className='container resumeCont d-flex justify-content-center'>
       <div className='row'>
         <div className='col-12 d-flex justify-content-center'>
-          <h1 className='mainFont p-4'><a href='https://docs.google.com/document/d/1QxQsZqhZsIMi8LB4Ajbp6Lp517oKCHD9LnrOWBbfENs/edit?usp=sharing' className='resume mainFont'>View my resume</a></h1>
+          <h2 className='mainFont pb-4'><a href='https://docs.google.com/document/d/1QxQsZqhZsIMi8LB4Ajbp6Lp517oKCHD9LnrOWBbfENs/edit?usp=sharing' className='resume mainFont'>View my resume</a></h2>
         </div>
-
         <div className='col-12 d-flex justify-content-center'>
-          <h2 className='mainFont p-2'>Skills and Proficiencies</h2>
-        </div>
-     
-          <h3 className='col-12 d-flex justify-content-center secondaryFont'>Back-End Development</h3>
+          <h3 className='mainFont pb-2'>Skills and Proficiencies</h3>
+        </div>   
+          <h4 className='col-12 d-flex justify-content-center secondaryFont'>Back-End Development</h4>
           <div className='col-12 d-flex justify-content-center secondaryFont'>
             <ul>
               <li>Node.js</li>
@@ -24,7 +22,7 @@ const Resume = () => {
               <li>Sequelize</li>
             </ul>
           </div>
-          <h3 className='col-12 d-flex justify-content-center secondaryFont'>Front-end Development</h3>
+          <h4 className='col-12 d-flex justify-content-center secondaryFont'>Front-end Development</h4>
           <div className='col-12 d-flex justify-content-center secondaryFont'>
             <ul>
               <li>JavaScript</li>
@@ -38,10 +36,7 @@ const Resume = () => {
               <li>PWAs</li>
             </ul>
           </div>
-        
-
       </div>
-
     </section>
   )
 }
