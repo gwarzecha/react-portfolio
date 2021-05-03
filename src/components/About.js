@@ -6,7 +6,7 @@ const About = () => {
     <section className='container d-flex justify-content-center'>
       <div className="row aboutSection">
         <div className='col-md-12 col-sm-12 col-lg-4 d-flex justify-content-center'>
-          <img src={headshot} className='headshot' alt='headshot'></img>
+          <img src={headshot} className='headshot d-flex align-self-center' alt='headshot'></img>
         </div>
         <div className='col-md-12 col-sm-12 col-lg-8 d-flex p-2 mt-4'>
           <p className= 'd-flex align-self-center secondaryFont'>
