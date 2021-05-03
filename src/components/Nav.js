@@ -2,7 +2,7 @@ import React from 'react'
 
 const Nav = (props) => {
   return (
-    <div>
+    
       <nav className="jumbotron jumbotron-fluid">
         <div className="container">
           <div className='row'>
@@ -24,7 +24,7 @@ const Nav = (props) => {
           </div>
         </div>
       </nav>
-    </div>
+    
   )
 }
 

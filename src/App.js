@@ -30,14 +30,11 @@ function App() {
 
   return (
     <>
+      <Header>
+        <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+      </Header>
       <main>
-        <Header>
-          <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
-        </Header>
-
-            {renderPage(currentPage)}
-       
-        
+        {renderPage(currentPage)}
       </main>
       <Footer />
     </>
