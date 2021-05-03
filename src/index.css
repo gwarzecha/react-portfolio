@@ -174,7 +174,6 @@ a.appLink:hover {
 
 .appLink:hover {
   color: #001f54ff; 
- 
   text-decoration:none; 
   cursor:pointer;  
 }
@@ -212,6 +211,23 @@ textarea {
 
 #contactBtn {
   color: black !important;
+}
+
+/* Resume Styling */
+
+.resumeCont {
+  overflow: auto;
+}
+
+.resume {
+  color: black;
+  text-decoration: none !important;
+}
+
+.resume:hover {
+  color: #001f54ff; 
+  text-decoration:none; 
+  cursor:pointer;  
 }
 
 /* Footer Styling */
