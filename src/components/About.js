@@ -6,10 +6,10 @@ const About = () => {
     <section className='container d-flex justify-content-center'>
       <div className="row aboutSection">
         <div className='col-md-12 col-sm-12 col-lg-4 d-flex justify-content-center'>
-          <img src={headshot} className='headshot d-flex align-self-center' alt='headshot'></img>
+          <img src={headshot} className='headshot d-flex align-self-start' alt='headshot'></img>
         </div>
         <div className='col-md-12 col-sm-12 col-lg-8 d-flex p-2 mt-4'>
-          <p className= 'd-flex align-self-center secondaryFont'>
+          <p className= 'd-flex align-self-start secondaryFont'>
             I am a full-stack web developer from PHX, AZ specializing in the MERN stack, combining my passion for 
             creativity with practical problem solving abilities. Initially finding myself in the 
             medical field with a background in Biomedical Sciences, a transition in focus 
