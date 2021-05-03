@@ -9,7 +9,7 @@ const About = () => {
           <img src={headshot} className='headshot' alt='headshot'></img>
         </div>
         <div className='col-md-12 col-sm-12 col-lg-8 d-flex p-2 mt-4'>
-          <p className= 'd-flex align-self-center'>
+          <p className= 'd-flex align-self-center secondaryFont'>
             I am a full-stack web developer from PHX, AZ specializing in the MERN stack, combining my passion for 
             creativity with practical problem solving abilities. Initially finding myself in the 
             medical field with a background in Biomedical Sciences, a transition in focus 

@@ -46,27 +46,27 @@ function ContactForm() {
     <section className="container d-flex contactCont justify-content-center" >
       <div className='row'>
         <div className='col-12 p-4'>
-          <h1 className='d-flex justify-content-center'>Get in Touch!</h1>
-          <h3 className='d-flex justify-content-center'>480.321.7571</h3>
+          <h1 className='d-flex justify-content-center mainFont'>Get in Touch!</h1>
+          <h3 className='d-flex justify-content-center secondaryFont'>480.321.7571</h3>
         </div>
 
         <form className='col-12 justify-content-center' onSubmit={handleSubmit}>
           <div className='container'>
             <div>
-              <label htmlFor="name" className='col-12'>Name:</label>
+              <label htmlFor="name" className='col-12 secondaryFont'>Name:</label>
               <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
             </div>
           </div>
           <div className='container'>
             <div>
-              <label htmlFor="email" className='col-12'>Email address:</label>
+              <label htmlFor="email" className='col-12 secondaryFont'>Email address:</label>
               <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
             </div>
 
           </div>
           <div className='container'>
             <div>
-              <label htmlFor="message" className='col-12'>Message:</label>
+              <label htmlFor="message" className='col-12 secondaryFont'>Message:</label>
               <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
             </div>
 

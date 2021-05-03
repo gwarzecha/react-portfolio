@@ -7,7 +7,12 @@ Colors {
   --white: #fefcfbff;
 }
 
-
+/*
+Fonts {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Playfair Display', serif;
+}
+*/
 
 * {
   box-sizing: border-box;
@@ -33,6 +38,18 @@ main {
   background: linear-gradient(to bottom left, #034078ff, #fefcfbff, #001f54ff)
 }
 
+/* Font Styling */
+
+.mainFont {
+  font-family: 'Playfair Display', serif;
+  color: #010b15
+}
+
+.secondaryFont {
+  font-family: 'Montserrat', sans-serif;
+  color: #010b15
+}
+
 /* Navbar Styling*/
 
 .jumbotron {
@@ -45,7 +62,7 @@ main {
 
 .btn {
   width: 80px;
-  margin: .25rem
+  margin: .25rem;
 }
 
 
@@ -108,20 +125,6 @@ main {
   top: 0;
   border-radius: 10px;
 }
-
-/*
-nav {
-  width: 100%;
-}
-
-a.navbar-brand {
-  font-size: 2.625rem;
-}
-
-a.nav-link {
-  font-size: 1.75rem;
-}
-*/
 
 /* About Me*/
 
@@ -225,9 +228,15 @@ textarea {
 }
 
 .resume:hover {
-  color: #001f54ff; 
+
+  color:  #034078ff; 
   text-decoration:none; 
   cursor:pointer;  
+}
+
+a.resume:hover{
+  transition:font-size 500ms ease-in-out;
+  font-size: 3.25rem;
 }
 
 /* Footer Styling */
