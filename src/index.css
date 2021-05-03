@@ -129,6 +129,8 @@ main {
 
 .headshot {
   border-radius: 25%;
+  max-width: 18.75rem;
+  max-height: 17.25rem;
 }
 
 /* Portfolio Page */
