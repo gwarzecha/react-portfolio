@@ -39,7 +39,7 @@ function App() {
        
         
       </main>
-      {/*<Footer />*/}
+      <Footer />
     </>
   );
 }

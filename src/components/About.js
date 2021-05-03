@@ -3,16 +3,16 @@ import headshot from '../assets/images/updatedHeadshot.png'
 
 const About = () => {
   return (
-    <section className='container-fluid d-flex justify-content-center'>
-      <div className="row">
-        <div className='col-md-12 col-sm-12 col-lg-4'>
+    <section className='container d-flex justify-content-center'>
+      <div className="row aboutSection">
+        <div className='col-md-12 col-sm-12 col-lg-4 d-flex justify-content-center'>
           <img src={headshot} alt='headshot'></img>
         </div>
-        <div className='col-md-12 col-sm-12 col-lg-8'>
-          <p>
-            I'm baby flexitarian freegan iPhone artisan, messenger bag jianbing try-hard semiotics bitters trust fund sriracha lyft plaid gluten-free mlkshk. Pinterest messenger bag austin narwhal. Next level narwhal mustache mumblecore roof party four loko. Microdosing aesthetic blue bottle mixtape waistcoat glossier tilde crucifix kombucha poutine.
-
-            Beard photo booth street art, umami blog fashion axe forage wolf lyft edison bulb intelligentsia cronut bitters direct trade. Selfies kale chips ennui, twee franzen fingerstache put a bird on it flexitarian biodiesel kogi succulents. Direct trade franzen small batch live-edge, hell of bitters hot chicken cred kinfolk keffiyeh schlitz gochujang. Sustainable crucifix tbh single-origin coffee pabst, cardigan shoreditch mustache franzen. Master cleanse umami mlkshk typewriter. PBR&B selfies palo santo stumptown chicharrones hella kickstarter before they sold out semiotics hammock copper mug man bun trust fund aesthetic. Crucifix 90's migas hammock, kinfolk tbh palo santo coloring book shoreditch selfies tousled.
+        <div className='p-2 col-md-12 col-sm-12 col-lg-8 d-flex'>
+          <p className= 'd-flex align-self-center'>
+            I am a full-stack developer specializing in the MERN stack, combining my passion for 
+            creativity with practical problem solving abilities. 
+            
           </p>
         </div>
       </div>
