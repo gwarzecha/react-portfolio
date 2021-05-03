@@ -3,13 +3,12 @@ import headshot from '../assets/images/updatedHeadshot.png'
 
 const About = () => {
   return (
-    <section className='container'>
-      <h1 id='about'>A bit about me...</h1>
+    <section className='container-fluid d-flex justify-content-center'>
       <div className="row">
-        <div className='col-12 col-lg-4'>
+        <div className='col-md-12 col-sm-12 col-lg-4'>
           <img src={headshot} alt='headshot'></img>
         </div>
-        <div className='col-6 col-lg-8'>
+        <div className='col-md-12 col-sm-12 col-lg-8'>
           <p>
             I'm baby flexitarian freegan iPhone artisan, messenger bag jianbing try-hard semiotics bitters trust fund sriracha lyft plaid gluten-free mlkshk. Pinterest messenger bag austin narwhal. Next level narwhal mustache mumblecore roof party four loko. Microdosing aesthetic blue bottle mixtape waistcoat glossier tilde crucifix kombucha poutine.
 

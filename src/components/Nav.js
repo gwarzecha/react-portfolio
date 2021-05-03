@@ -4,12 +4,12 @@ const Nav = (props) => {
   return (
 
     <div>
-      <div className="jumbotron jumbotron-fluid">
+      <nav className="jumbotron jumbotron-fluid">
         <div className="container">
           <div className='row'>
             <div className='col-md-8'>
-              <h1 className="display-4">Fluid jumbotron</h1>
-              <p className="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+              <h1 className="display-4">Hey There,</h1>
+              <p className="lead">My name is Garrett Warzecha</p>
             </div>
             <div className="col-md-4 btn-col d-flex justify-content-center">
               <div className="btn-group-vertical ">
@@ -23,7 +23,7 @@ const Nav = (props) => {
             </div>
           </div>
         </div>
-      </div>
+      </nav>
 
       {/*       <nav className="navbar navbar-expand-lg navbar-light bg-dark">
         <a className="navbar-brand" href="#">Garrett Warzecha</a>

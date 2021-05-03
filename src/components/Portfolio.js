@@ -7,8 +7,8 @@ const Portfolio = (project) => {
   const [projects] = useState(projectJSON);
 
   return (
-    <div className='container'>
-      <div className='row'>
+    <div className='container projectCont'>
+      <div className='row justify-content-center'>
         {projects.map((project) => (
           < Project project={project} />
         ))}
