@@ -4,7 +4,7 @@
 
   ## Description: 
 
-  A portfolio created using mainly React and Bootsrap for potential employers and those interested in my work to view.
+  A portfolio created using React and Bootstrap for potential employers and those interested in my work to view.
 
   ![Screen Shot](./src/assets/images/ss.png)
   
