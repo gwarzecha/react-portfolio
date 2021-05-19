@@ -186,33 +186,8 @@ a.appLink:hover {
   overflow: auto;
 }
 
-form {
-  width: 40%;
-}
-
-input {
-  font-size: 1rem;
-  padding: 0.25rem;
-  border: 0.0625rem solid var(--dark);
-  outline: none;
-  border-radius: 3px;
-  transition: box-shadow 0.2s;
-}
-
-input:focus {
-  border: 1px solid var(--secondary);
-  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
-}
-
-textarea {
-  width: 350px;
-  height: 300px;
-  border: 3px solid #cccccc;
-  padding: 5px;
-}
-
-#contactBtn {
-  color: black !important;
+.contactInfo {
+  font-size: 3.25rem;
 }
 
 /* Resume Styling */
