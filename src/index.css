@@ -47,7 +47,8 @@ main {
 
 .secondaryFont {
   font-family: 'Montserrat', sans-serif;
-  color: #010b15
+  color: #010b15;
+  font-size: 1.25rem
 }
 
 /* Navbar Styling*/
@@ -61,8 +62,9 @@ main {
 
 .btn {
   width: 5rem;
-  margin: .25rem;
+  margin: 1.5rem;
 }
+
 
 
 .glow-on-hover {
@@ -129,6 +131,8 @@ main {
 
 .headshot {
   border-radius: 25%;
+  max-width: 300px;
+  max-height: 300px;
 }
 
 /* Portfolio Page */
@@ -187,7 +191,12 @@ a.appLink:hover {
 }
 
 .contactInfo {
-  font-size: 3.25rem;
+  font-size: 1.5rem;
+}
+
+.contactValue:hover {
+  color: yellow;
+  text-decoration: none !important;
 }
 
 /* Resume Styling */

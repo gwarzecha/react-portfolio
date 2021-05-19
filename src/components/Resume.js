@@ -5,7 +5,7 @@ const Resume = () => {
     <section className='container resumeCont d-flex justify-content-center'>
       <div className='row'>
         <div className='col-12 d-flex justify-content-center'>
-          <h2 className='mainFont pb-4'><a href='https://docs.google.com/document/d/1QxQsZqhZsIMi8LB4Ajbp6Lp517oKCHD9LnrOWBbfENs/edit?usp=sharing' className='resume mainFont'>View my resume</a></h2>
+          <h2 className='mainFont pb-4'><a href='https://docs.google.com/document/d/1fjfslIhiA87JXA_jZkCM74_DHdbwqm7DfytbZshHtFc/edit?usp=sharing' className='resume mainFont'>View my resume</a></h2>
         </div>
         <div className='col-12 d-flex justify-content-center'>
           <h3 className='mainFont pb-2'>Skills and Proficiencies</h3>
