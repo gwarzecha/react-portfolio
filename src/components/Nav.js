@@ -15,10 +15,10 @@ const Nav = (props) => {
               <div className="btn-group-vertical ">
                 <div>
                 </div>
-                <a href="#" onClick={() => props.handlePageChange('About')}><button type="button" className="glow-on-hover btn btn-sm mainFont props.currentPage === 'About' ? 'nav-link active' : 'nav-link'">About</button></a>
-                <a href="#" onClick={() => props.handlePageChange('Portfolio')}><button type="button" className="glow-on-hover btn btn-sm mainFont props.currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'">Projects</button></a>
-                <a href="#" onClick={() => props.handlePageChange('Contact')}><button type="button" className="glow-on-hover btn btn-sm mainFont props.currentPage === 'Contact' ? 'nav-link active' : 'nav-link'">Contact</button></a>
-                <a href="#" onClick={() => props.handlePageChange('Resume')}><button type="button" className="glow-on-hover btn btn-sm mainFont props.currentPage === 'Resume' ? 'nav-link active' : 'nav-link'">Resume</button></a>
+                 <button onClick={() => props.handlePageChange('About')} type="button" className="glow-on-hover btn-md mainFont props.currentPage === 'About' ? 'nav-link active' : 'nav-link'">About</button>
+                <button onClick={() => props.handlePageChange('Portfolio')} type="button" className="glow-on-hover btn-md mainFont props.currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'">Projects</button>
+                <button onClick={() => props.handlePageChange('Contact')}type="button" className="glow-on-hover btn-md mainFont props.currentPage === 'Contact' ? 'nav-link active' : 'nav-link'">Contact</button>
+                <button onClick={() => props.handlePageChange('Resume')}type="button" className="glow-on-hover btn-md mainFont props.currentPage === 'Resume' ? 'nav-link active' : 'nav-link'">Resume</button>
               </div>
             </div>
           </div>
