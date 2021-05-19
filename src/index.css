@@ -60,11 +60,10 @@ main {
 }
 
 
-.btn {
-  width: 5rem;
-  margin: 1.5rem;
+.btn-md {
+  margin: .25rem;
+  background: #fff;
 }
-
 
 
 .glow-on-hover {
@@ -72,7 +71,7 @@ main {
   height: 50px;
   border: none;
   outline: none;
-  color: #fff;
+  color: black;
   background: #fff;
   cursor: pointer;
   position: relative;
@@ -190,12 +189,13 @@ a.appLink:hover {
   overflow: auto;
 }
 
-.contactInfo {
-  font-size: 1.5rem;
+.contactValue {
+  font-size: 1.75rem;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .contactValue:hover {
-  color: yellow;
+  color: rgb(0, 132, 255);
   text-decoration: none !important;
 }
 
@@ -208,10 +208,11 @@ a.appLink:hover {
 .resume {
   color: black;
   text-decoration: none !important;
+  font-size: 2.5rem
 }
 
-.resume:hover {
 
+.resume:hover {
   color:  #034078ff; 
   text-decoration:none; 
   cursor:pointer;  
@@ -219,7 +220,7 @@ a.appLink:hover {
 
 a.resume:hover{
   transition:font-size 500ms ease-in-out;
-  font-size: 2.50rem;
+  font-size: 2.70rem;
 }
 
 /* Footer Styling */
