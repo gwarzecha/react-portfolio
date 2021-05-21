@@ -189,14 +189,22 @@ a.appLink:hover {
   overflow: auto;
 }
 
+.contactHeader {
+  font-size: 2.0rem
+}
+
 .contactValue {
   font-size: 1.75rem;
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
 }
 
 .contactValue:hover {
   color: rgb(0, 132, 255);
   text-decoration: none !important;
+}
+
+div.card-body {
+  background-color: #5e7790;
 }
 
 /* Resume Styling */
