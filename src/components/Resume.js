@@ -19,7 +19,7 @@ const Resume = () => {
               <li>IndexedDB</li>
               <li>NoSQL</li>
               <li>MySQL</li>
-              <li>Sequelize</li>
+              <li>GraphQL</li>
             </ul>
           </div>
           <h4 className='col-12 d-flex justify-content-center secondaryFont'>Front-end Development</h4>
