@@ -209,6 +209,10 @@ div.card-body {
 
 /* Resume Styling */
 
+.devicon {
+  height: 5rem;
+}
+
 .resumeCont {
   overflow: auto;
 }
