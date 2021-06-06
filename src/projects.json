@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Mood Music",
-    "image": "mm.png",
+    "image": "mm3.png",
     "github": "https://github.com/aejg-project/mood-music.git",
     "deployedApp": "https://mewd-mewsic.herokuapp.com/"
   },
