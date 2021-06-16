@@ -24,7 +24,7 @@ const Resume = () => {
           {" "}
           <a
             className="devicon-link"
-            href="https://devcenter.heroku.com/"
+            href="https://nodejs.org/en/"
             target="_blank"
             rel="noreferrer"
           >
@@ -44,7 +44,7 @@ const Resume = () => {
           </a>
           <a
             className="devicon-link"
-            href="https://devcenter.heroku.com/"
+            href="https://expressjs.com/"
             target="_blank"
             rel="noreferrer"
           >
@@ -54,7 +54,7 @@ const Resume = () => {
           </a>
           <a
             className="devicon-link"
-            href="https://devcenter.heroku.com/"
+            href="https://www.mongodb.com/"
             target="_blank"
             rel="noreferrer"
           >
@@ -64,7 +64,7 @@ const Resume = () => {
           </a>
           <a
             className="devicon-link"
-            href="https://devcenter.heroku.com/"
+            href="https://www.npmjs.com/"
             target="_blank"
             rel="noreferrer"
           >
@@ -74,7 +74,7 @@ const Resume = () => {
           </a>
           <a
             className="devicon-link"
-            href="https://devcenter.heroku.com/"
+            href="https://git-scm.com/"
             target="_blank"
             rel="noreferrer"
           >
@@ -84,7 +84,7 @@ const Resume = () => {
           </a>
           <a
             className="devicon-link"
-            href="https://devcenter.heroku.com/"
+            href="https://code.visualstudio.com/"
             target="_blank"
             rel="noreferrer"
           >
@@ -94,7 +94,7 @@ const Resume = () => {
           </a>
           <a
             className="devicon-link"
-            href="https://devcenter.heroku.com/"
+            href="https://www.mysql.com/"
             target="_blank"
             rel="noreferrer"
           >
@@ -104,7 +104,7 @@ const Resume = () => {
           </a>
           <a
             className="devicon-link"
-            href="https://devcenter.heroku.com/"
+            href="https://handlebarsjs.com/"
             target="_blank"
             rel="noreferrer"
           >
@@ -114,7 +114,7 @@ const Resume = () => {
           </a>
           <a
             className="devicon-link"
-            href="https://devcenter.heroku.com/"
+            href="https://sequelize.org/"
             target="_blank"
             rel="noreferrer"
           >
@@ -124,7 +124,7 @@ const Resume = () => {
           </a>
           <a
             className="devicon-link"
-            href="https://devcenter.heroku.com/"
+            href="https://reactjs.org/"
             target="_blank"
             rel="noreferrer"
           >
@@ -134,7 +134,7 @@ const Resume = () => {
           </a>
           <a
             className="devicon-link"
-            href="https://devcenter.heroku.com/"
+            href="https://developer.mozilla.org/en-US/docs/Web/CSS"
             target="_blank"
             rel="noreferrer"
           >
@@ -144,7 +144,7 @@ const Resume = () => {
           </a>
           <a
             className="devicon-link"
-            href="https://devcenter.heroku.com/"
+            href="https://getbootstrap.com/"
             target="_blank"
             rel="noreferrer"
           >
@@ -154,7 +154,7 @@ const Resume = () => {
           </a>
           <a
             className="devicon-link"
-            href="https://devcenter.heroku.com/"
+            href="https://jquery.com/"
             target="_blank"
             rel="noreferrer"
           >
@@ -164,7 +164,7 @@ const Resume = () => {
           </a>
           <a
             className="devicon-link"
-            href="https://devcenter.heroku.com/"
+            href="https://html.com/html5/"
             target="_blank"
             rel="noreferrer"
           >
