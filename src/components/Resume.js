@@ -16,7 +16,7 @@ const Resume = () => {
             </a>
           </h2>
         </div>
-        <div className="col-12 d-flex justify-content-center">
+        <div className="col-12 d-flex justify-content-center mb-1">
           <h3 className="mainFont pb-2 m-2">Skills and Proficiencies</h3>
         </div>
 

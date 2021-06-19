@@ -213,6 +213,16 @@ div.card-body {
   font-size: 6rem;
 }
 
+.devicon:hover {
+  font-size: 7rem;
+  transition:font-size 500ms ease-in-out;
+}
+
+.devicon-link {
+  text-decoration: none!important;
+  margin: 0.75rem;
+}
+
 .resumeCont {
   overflow: auto;
 }
