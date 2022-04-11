@@ -7,13 +7,6 @@
     "deployedApp": "https://mewd-mewsic.herokuapp.com/"
   },
   {
-    "id": 2,
-    "name": "Coding Bootcamp Survival Guide",
-    "image": "cbsg.png",
-    "github":"https://github.com/Coding-Bootcamp-Survival-Guide/Coding-Bootcamp-Survival-Guide.git",
-    "deployedApp": "//coding-bootcamp-survival-guide.herokuapp.com/"
-  },
-  {
     "id": 3,
     "name": "The Quick Bite",
     "image": "qb.png",
